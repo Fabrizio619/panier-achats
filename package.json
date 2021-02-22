@@ -2,6 +2,7 @@
   "name": "panier-achats",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Fabrizio619.github.io/panier-achats/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -19,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "ghdeploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +43,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage-inactif": "https://Fabrizio619.github.io/panier-achats/",
+  "homepage": "https://Fabrizio619.github.io/panier-achats/",
   "homepage-aide": "Avant de déployer sur GitHub vous devez configurer correctement la propriété homepage ci-dessus : 1) retirer le suffixe '-inactif' de l'étiquette, et 2) remplacer 'username' par le nom de votre compte GitHub et 'depot-gh' par le nom de votre dépôt GitHub dans la valeur de la propriété."
 }
